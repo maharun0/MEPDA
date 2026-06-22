@@ -33,21 +33,23 @@ Raisa, J. F., & Kaiser, M. S. (2025). *Data for postpartum depression prediction
 
 ## Pipeline Summary
 
-Data Cleaning & Encoding  
-↓  
-Outlier Detection & Removal (IQR Analysis)  
-↓  
-Balanced Dataset Splitting (80:20 Stratified Split)  
-↓  
-SMOTE  
-↓  
-Feature Scaling (StandardScaler)  
-↓  
-Model Training & Hyperparameter Tuning (GridSearchCV + 5-Fold Stratified Cross-Validation)  
-↓  
-Ensemble Learning (Hard Voting & Soft Voting using Random Forest + Extra Trees)  
-↓  
+```text
+Data Cleaning & Encoding
+↓
+Outlier Detection & Removal (IQR Analysis)
+↓
+Balanced Dataset Splitting (80:20 Stratified Split)
+↓
+SMOTE
+↓
+Feature Scaling (StandardScaler)
+↓
+Model Training & Hyperparameter Tuning (GridSearchCV + 5-Fold Stratified Cross-Validation)
+↓
+Ensemble Learning (Hard Voting & Soft Voting using Random Forest + Extra Trees)
+↓
 Model Explainability (LIME)
+```
 
 ---
 ## Models Used
